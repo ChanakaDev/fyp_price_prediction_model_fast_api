@@ -1,14 +1,5 @@
-# This directory is there for the price prediction model
+# Instructions for Running this API on an AWS EC2 Instance
 
-- change directory `cd fast_api_backend/price_prediction_model_api`
-- create a venv `python3 -m venv venv`
-- activate `source venv/bin/activate`
-
-- install uvicorn `pip3 install fastapi uvicorn`
-- run the project `uvicorn main:app --reload`
-
-- check pip packages in that venv `pip3 list`
-- installing packages for that venv `pip3 install <package_1> <package_2>`
-- create a requirements file `pip3 freeze > requirements.txt`
-
-- deactivate `deactivate`
+- 1. Change directory `cd fyp_price_prediction_model_fast_api`
+- 2. Install the requirements file `pip3 install -r requirements.txt`
+- 3. Run the project `uvicorn main:app --reload`
